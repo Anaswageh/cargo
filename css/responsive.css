@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
-    transition: all ease .5s;
+    transition: all ease 0.5s;
     opacity: 0;
     visibility: hidden;
   }
@@ -20,65 +20,65 @@
     color: #000;
     padding-top: 30px;
     transform: translateX(-100%);
-    transition: all ease .5s;
+    transition: all ease 0.5s;
   }
-  .navbar-collapse.show-navbar{
+  .navbar-collapse.show-navbar {
     opacity: 1;
     visibility: visible;
   }
   .navbar .navbar-collapse.show-navbar .navbar-nav {
-   transform: translateX(0);
+    transform: translateX(0);
   }
-  .navbar .navbar-nav .nav-item a.nav-link{
-   color: #000 !important;
+  .navbar .navbar-nav .nav-item a.nav-link {
+    color: #000 !important;
   }
-  .navbar .navbar-nav .nav-item a.nav-link:before{
-   display: none;
+  .navbar .navbar-nav .nav-item a.nav-link:before {
+    display: none;
   }
-  .navbar .navbar-nav .close-navbar{
-   display: block;
+  .navbar .navbar-nav .close-navbar {
+    display: block;
   }
 }
-@media (max-width: 463px){
+@media (max-width: 463px) {
   .frist-slide h1 {
     color: white;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0px;
   }
-  
+
   .frist-slide h1 span {
     color: var(--second-color);
     font-size: 50px;
     font-weight: 700;
   }
 }
-@media (max-width: 481px){
+@media (max-width: 481px) {
   .newsletter .search .searching {
-   height: 40px;
+    height: 40px;
     transform: translateX(-74px);
   }
   .careers .radio-input h4 {
-   font-size: 13px;
+    font-size: 13px;
+  }
 }
+@media (max-width: 767px) {
+  .main-form .upload-link a {
+    color: var(--main-color);
+    margin-top: 13px;
+    transform: translateX(-18px);
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .careers span.icon-text p {
+    font-size: 10px;
+  }
 }
-@media (max-width: 767px){
-.main-form .upload-link a{
-  color: var(--main-color);
-  margin-top: 13px;
-  transform: translateX(-18px);
-  font-weight: 700;
-  font-size: 12px;
-}
-.careers span.icon-text p{
-  font-size: 10px;
-}
-}
-@media (min-width: 991px) and (max-width:1200px){
-  .second-tabs ul.nav li.nav-item button.lease-box{
+@media (min-width: 991px) and (max-width: 1200px) {
+  .second-tabs ul.nav li.nav-item button.lease-box {
     height: 109px;
   }
-  .navbar-expand-lg .navbar-nav .nav-link{
+  .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 10px;
   }
 }
