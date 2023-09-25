@@ -13,6 +13,13 @@ $(document).ready(function () {
     }
   });
   /*up icon*/
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 700) {
+      $(".circle-up").css({ display: "block" });
+    } else {
+      $(".circle-up").css({ display: "none" });
+    }
+  });
   $(".circle-up").click(function () {
     $(window).scrollTop(0);
   });

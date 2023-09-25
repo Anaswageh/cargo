@@ -1033,6 +1033,7 @@ nav .navbar {
 }
 /*newsletter*/
 .newsletter {
+  
   background-image: url(../img/Newsletter/Newsletter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
