@@ -3,21 +3,21 @@
   .buttons-about .join {
  
     font-size: 9px;
-    font-weight: 400;
+    font-weight: 500;
   }
   
   .buttons-about .contact-2 {
-    font-size: 9px;
-    font-weight: 400;
+    font-size: 11px;
+    font-weight: 500;
   }
   .buttons-about .join:hover {
-    font-size: 9px;
-    font-weight: 400;
+    font-size: 11px;
+    font-weight: 500;
   }
   
   .buttons-about .contact-2:hover {
-    font-size: 9px;
-    font-weight: 400;
+    font-size: 11px;
+    font-weight: 500;
   }
   
 }
