@@ -1057,10 +1057,18 @@ nav .navbar {
   text-align: center;
   border: none;
 }
-.newsletter .input-group button.searching {
+.newsletter .searching {
   background-color: rgba(103, 90, 255, 1);
   color: white;
   font-size: 10px;
+  height: 38px;
+    transform: translateX(-60px);
+    z-index: 9999;
+    margin-top: 8px;
+    border: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
 }
 /*footer*/
 .footer {
