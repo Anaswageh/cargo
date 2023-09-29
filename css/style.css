@@ -721,25 +721,20 @@ nav .navbar {
   color: var(--main-color);
  
 }
-.haul-text h2{
+.haul-text h1{
   color: var(--main-color);
- font-size: 30px;
+ font-size:50px;
  font-weight: bold;
+ margin-left: 20px;
 }
 .haul-text ul li{
   color: var(--main-color);
- font-size: 12px;
+ font-size: 20px;
  font-weight: 500;
- margin-top: 5px;
+ margin-top: 10px;
+ margin-left: 30px;
 }
 
-.we-haul .haul-img{
-  background-image: url(../img/Frame\ 572.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-}
 
 /*testimonials*/
 .testimonials {
@@ -869,6 +864,32 @@ nav .navbar {
   max-width: 200px;
   max-height: 300px;
 }
+/*program*/
+.program {
+  background-image: url(../img/img1\ \ \(7\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: center;
+ min-height: 550px;
+}
+.program-text{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+}
+.program-text h6 {
+  font-size: 13px;
+  font-weight: 100px;
+  color: rgba(194, 193, 193, 0.527);
+}
+.program-text h2 {
+  font-size: 40px;
+  font-weight: 600px;
+}
+
 /*question*/
 .question {
   background-color: white;
