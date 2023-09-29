@@ -98,18 +98,6 @@ nav .navbar {
   cursor: pointer;
 }
 
-.navbar-nav .nav-link:hover::before {
-  content: "";
-  background-color: var(--second-color);
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  position: absolute;
-  transform: scaleX(1) translateX(-50%);
-  bottom: -2px;
-  left: 50%;
-}
-
 .navbar-nav .nav-link.active {
   color: var(--second-color) !important;
 }
@@ -202,6 +190,9 @@ nav .navbar {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+}
+.second-slide .slide-text p{
+  color: white;
 }
 
 .second-slide h1 {
@@ -725,6 +716,30 @@ nav .navbar {
   margin-top: 8px;
   margin-right: 10px;
 }
+/*we haul*/
+.haul-text{
+  color: var(--main-color);
+ 
+}
+.haul-text h2{
+  color: var(--main-color);
+ font-size: 30px;
+ font-weight: bold;
+}
+.haul-text ul li{
+  color: var(--main-color);
+ font-size: 12px;
+ font-weight: 500;
+ margin-top: 5px;
+}
+
+.we-haul .haul-img{
+  background-image: url(../img/Frame\ 572.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
 
 /*testimonials*/
 .testimonials {
@@ -826,7 +841,34 @@ nav .navbar {
   height: 10px;
   margin-right: 20px;
 }
+/*Charity*/
+.Charity {
+  background-color: white;
+}
 
+.Charity-text {
+  width: 90%;
+}
+
+.Charity .Charity-text h6 {
+  color: rgba(63, 62, 62, 0.527);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Charity-text h2 {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.Charity-text p {
+  color: var(--main-color);
+  font-size: 15px;
+}
+.Charity-img{
+  max-width: 200px;
+  max-height: 300px;
+}
 /*question*/
 .question {
   background-color: white;
