@@ -19,7 +19,7 @@ body {
   right: 25px;
   z-index: 2;
   font-size: 36px;
-  color: var(--main-color);
+  color:red;
 }
 /* loading page*/
 .loading-page {
