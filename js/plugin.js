@@ -40,6 +40,9 @@ $(document).ready(function () {
     loop: true,
     nav: false,
     margin:0,
+    autoplay:true,
+   autoplayTimeout:5000,
+    autoplayHoverPause:false,
     responsive: {
       0: {
         items: 1,
