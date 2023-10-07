@@ -41,7 +41,7 @@ $(document).ready(function () {
     nav: false,
     margin:0,
     autoplay:true,
-   autoplayTimeout:5000,
+   autoplayTimeout:3000,
     autoplayHoverPause:false,
     responsive: {
       0: {
