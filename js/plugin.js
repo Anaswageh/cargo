@@ -39,6 +39,7 @@ $(document).ready(function () {
   $(".owl-carousel.first-slider-page").owlCarousel({
     loop: true,
     nav: false,
+    margin:0,
     responsive: {
       0: {
         items: 1,
