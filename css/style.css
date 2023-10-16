@@ -20,6 +20,7 @@ body {
   z-index: 2;
   font-size: 36px;
   color: var(--main-color);
+  cursor: pointer;
 }
 /* loading page*/
 .loading-page {
@@ -120,13 +121,15 @@ nav .navbar {
 }
 
 .buttons .work {
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 600;
   height: 40px;
   width: 50%;
 }
 
 .buttons .contact {
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 600;
   background-color: white;
   height: 40px;
   width: 50%;
@@ -171,8 +174,8 @@ nav .navbar {
 
 .frist-slide p {
   color: white;
-  font-size: 15px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /*second page on slider*/
@@ -210,8 +213,8 @@ nav .navbar {
 
 .slide-icon .icon h6 {
   color: rgba(255, 255, 255, 0.685);
-  font-size: 9px;
-  font-weight: 100;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /*third page on slider*/
@@ -295,7 +298,8 @@ nav .navbar {
 
 .slide-icon .icon p {
   color: white;
-  font-size: 11px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .button .learn {
@@ -409,8 +413,8 @@ nav .navbar {
 
 .slide-icon .icon h6 span {
   color: var(--second-color);
-  font-size: 9px;
-  font-weight: 100;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /*why cargo*/
@@ -455,8 +459,8 @@ nav .navbar {
 }
 
 .why-cargo-icon h6 {
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 /*Our Partenars*/
@@ -571,6 +575,9 @@ nav .navbar {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  height: 700px;
+  display: flex;
+  align-items: center;
 }
 
 .easy-steps-text {
@@ -640,7 +647,8 @@ nav .navbar {
 }
 
 .work-with-us-text p {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: bolder;
 }
 
 .work-with-us h3 {
@@ -649,8 +657,8 @@ nav .navbar {
 }
 
 .work-with-us h6 {
-  font-size: 12px;
-  font-weight: 200;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .work-with-us .invest .img-frame-coin {
@@ -933,7 +941,7 @@ nav .navbar {
   width: 100%;
   height: 55px;
   text-align: start;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   border: 0px solid white;
   box-shadow: none !important;
@@ -1486,6 +1494,7 @@ input[type="radio"]:checked {
 .tab-content a {
   text-decoration: none;
   color: var(--second-color);
+  font-weight: bold;
 }
 
 .tab-content a p {
@@ -1510,7 +1519,8 @@ input[type="radio"]:checked {
 }
 
 .driver-box .driver-box-small h6 {
-  font-size: 9px;
+  font-size: 11px;
+  font-weight: bolder;
   color: #abb7c2;
   margin-left: 10px;
   margin-top: 5px;
@@ -1562,7 +1572,8 @@ input[type="radio"]:checked {
 }
 
 .driver-box .driver-box-small-2 h6 {
-  font-size: 9px;
+  font-size: 11px;
+  font-weight: bolder;
   color: #abb7c2;
   margin-left: 10px;
   margin-top: 5px;

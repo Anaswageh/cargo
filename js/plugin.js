@@ -7,7 +7,7 @@ $(document).ready(function () {
   /*header fixed*/
   $(window).scroll(function () {
     if ($(this).scrollTop() > 380) {
-      $("header").css({ backgroundColor: "#0e334f7e" });
+      $("header").css({ backgroundColor: "rgba(14, 51, 79, 0.9)" });
     } else {
       $("header").css({ backgroundColor: "transparent" });
     }
@@ -40,7 +40,7 @@ $(document).ready(function () {
     loop: true,
     nav: false,
     margin:0,
-    autoplay:true,
+    autoplay:false,
    autoplayTimeout:3000,
     autoplayHoverPause:false,
     responsive: {
